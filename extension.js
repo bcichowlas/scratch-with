@@ -84,9 +84,9 @@
   var descriptor = {
     blocks: [
 //Block type, block name, function name, param1 default value, param2 default value
-		['R', '%n ^ %n', 'power xyz', '2', '3'],
-      ['R', 'most %m.sort tweet containing %s xyz', 'getTopTweet', 'recent', '#scratch'],
-      ['R', 'a tweet from @%s xyz', 'latestUserTweet', 'scratch'],
+		['R', '%n ^ %n', 'power xyza', '2', '3'],
+      ['R', 'most %m.sort tweet containing %s xyza', 'getTopTweet', 'recent', '#scratch'],
+      ['R', 'a tweet from @%s xyza', 'latestUserTweet', 'scratch'],
     ],
     menus: {
       sort: ["popular", "recent"]
