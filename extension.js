@@ -37,6 +37,8 @@
     });
   };
   
+  // this actually works, simple as it is.  I'm not sure how the 'callback' works.  Note how it relates to 'scratch' in the calling outline below, so maybe this is like returning results.
+  
   ext.anything = function(callback){
   	callback("this is anything");
   }
