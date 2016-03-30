@@ -36,6 +36,10 @@
       }
     });
   };
+  
+  ext.anything = function(callback){
+  	callback("this is anything");
+  }
 
   ext.getTopTweet = function(sort, str, callback) {
     //If searching popluar, remove # and @ symbols from query
@@ -85,6 +89,7 @@
     blocks: [
 //Block type, block name, function name, param1 default value, param2 default value
 		['R', '%n ^ %n', 'power', '2', '3'],
+		['R', 'AnYtHiNg', 'anything', 'scratch'],
       ['R', 'most %m.sort tweet containing %s xyza', 'getTopTweet', 'recent', '#scratch'],
       ['R', 'a tweet from @%s xyza', 'latestUserTweet', 'scratch'],
     ],
